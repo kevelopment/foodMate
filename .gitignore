@@ -1,0 +1,12 @@
+# NPM Files
+node_modules
+
+# Expo Files
+.expo
+.expo-shared
+
+# VSCode Files
+.vscode
+
+# Project Related Files
+.env
