@@ -16,7 +16,6 @@ export default function IngredientItem({ ingredient }) {
   const deleteIngredient = (ingredient: Ingredient) => {
     firebase.firestore().collection("ingredients").doc(ingredient.id).delete();
   };
-  console.log("imageUrl: ", ingredient.imageUrl);
   const imageStyle = { width: 50, height: 50, borderRadius: 50 };
   return (
     <SwipeRow
