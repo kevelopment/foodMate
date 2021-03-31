@@ -9,6 +9,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,
+    "typeRoots": ["./src/types"],
     "paths": {
       "@models": ["./src/models"],
       "@components": ["./src/components/"],
